@@ -1,26 +1,47 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Wrapper from "./components/Wrapper";
+import Header from "./components/Header";
+import SearchBox from "./components/SearchBox";
+import ParentCard from "./components/ParentCard";
+import parents from "../src/parents.json";
+import Row from "./components/Row";
+import Container from "./components/Container"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+    state = {
+      parents
+    }
+
+    render () {
+    return (
+
+        <Wrapper>
+          <Header>
+            <SearchBox />
+              <Container>
+                <Row>
+                  {this.state.parents.map(parent => (
+                    <ParentCard
+                      id={parent.id}
+                      key={parent.id}
+                      name={parent.name}  
+                      spouse={parent.spouse}
+                      child={parent.child}
+                      classroom={parent.classroom}
+                      addy={parent.addy}
+                      city={parent.city}
+                      zip={parent.zip}
+                      phone={parent.phone}
+                      email={parent.email}           
+                    />
+                  ))}
+                </Row>
+              </Container>
+          </Header>
+        </Wrapper>
+    );
+  }
 }
-
 export default App;
