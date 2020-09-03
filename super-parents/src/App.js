@@ -24,8 +24,9 @@ class App extends Component {
                 <Row>
                   {this.state.parents.map(parent => (
                     <ParentCard
-                      id={parent.id}
+                      id={parent.id}                     
                       key={parent.id}
+                      image={parent.image}
                       name={parent.name}  
                       spouse={parent.spouse}
                       child={parent.child}

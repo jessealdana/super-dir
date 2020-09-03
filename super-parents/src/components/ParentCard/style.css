@@ -1,3 +1,36 @@
-h2 {
-    color: black
+.card {
+    background-color: rgb(246, 247, 243);
+    border-style: solid;
+    border-color: rgb(123, 123, 124);
+    border-width: 3px;
 }
+
+.text-area {
+    color: whitesmoke;
+    margin-top: 5px;
+    background-color: #4884c4;
+    border-style: solid;
+    border-color: rgb(123, 123, 124);
+    border-width: 2px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: normal;
+}
+
+h2 {
+    color: #4884c4;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+    margin-bottom: 2px;
+}
+img {
+    height: 80%;
+    width: 100%;
+    border-style: solid;
+    border-color: rgb(98, 98, 100);
+    border-width: 5px;
+}
+  
