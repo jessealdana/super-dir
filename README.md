@@ -29,6 +29,10 @@ This app is deployed to GitHub Pages:
 
 The user scrolls through a list of parents.
 
+![Directory](/super-parents/readmeImgs/directory.png)
+![ChildFilter](/super-parents/readmeImgs/childFilter.png)
+![ClassFilter](/super-parents/readmeImgs/classFilter.png)
+
  ## License
  
  This App is licensed under the MIT license.
