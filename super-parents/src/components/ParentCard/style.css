@@ -1,5 +1,5 @@
 .card {
-    background-color: white);
+    background-color: white;
     border-style: solid;
     border-color: rgb(123, 123, 124);
     border-width: 3px;
@@ -27,10 +27,37 @@ h2 {
     margin-bottom: 2px;
 }
 img {
-    height: 80%;
-    width: 100%;
+    height: 200px;
+    width: 300px;
     border-style: solid;
     border-color: rgb(98, 98, 100);
     border-width: 5px;
 }
-  
+
+@media screen and (max-width: 1048px) {
+    img {
+        height: 160px;
+        width: 240px;
+    }
+}
+ 
+@media screen and (max-width: 1024px) {
+    img {
+        height: 160px;
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    img {
+        height: 120px;
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    img {
+        height: 240px;
+        width: 300px;
+    }
+}

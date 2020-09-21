@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "../images/bat.jpg",
+    "image": "https://cdn.pixabay.com/photo/2015/04/20/13/45/persons-731514__480.jpg",
     "name": "Batman",
     "spouse": "Catwoman",
     "child": "Batgirl",
@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "image": "../images/batwoman.jpg",
+    "image": "https://media.gettyimages.com/photos/same-sex-couple-holding-their-baby-picture-id1062317300?s=612x612",
     "name": "Batwoman",
     "spouse": "Renee Montoya",
     "child": "Eliza",
@@ -27,7 +27,7 @@
   },
   {
     "id": 3,
-    "image": "../images/bat.jpg",
+    "image": "https://cdn.pixabay.com/photo/2015/04/20/13/45/persons-731514__480.jpg",
     "name": "Catwoman",
     "spouse": "Batman",
     "child": "Batgirl",
@@ -40,9 +40,10 @@
   },
   {
     "id": 4,
-    "image": "../images/cyborg.jpg",
-    "name": "Cyborg",
-    "child": "Grommet, Jimmy",
+    "image": "https://cdn.pixabay.com/photo/2019/12/30/20/45/father-4730578__480.jpg",
+    "name": "Cy Borg",
+    "spouse": "n/a",
+    "child": "Grommet Borg, Jimmy Borg",
     "classroom": "Teal, Brown",
     "addy": "333 Madison Ave",
     "city": "Metropolis",
@@ -52,7 +53,7 @@
   },
   {
     "id": 5,
-    "image": "../images/joke.jpg",
+    "image": "https://cdn.pixabay.com/photo/2018/05/14/13/57/family-3400033__480.jpg",
     "name": "Harley Quinn",
     "spouse": "Joker",
     "child": "Eleanor, Franklin",
@@ -65,19 +66,20 @@
   },
   {
     "id": 6,
-    "image": "../images/huntresss.jpg",
+    "image": "https://cdn.pixabay.com/photo/2017/11/21/09/59/park-2967756__480.jpg",
     "name": "Huntress",
-    "child": "Eero, Fletch",
-    "classroom": "Pink",
+    "spouse": "n/a",
+    "child": "Grommet Borg, Jimmy Borg",
+    "classroom": "Teal, Brown",
     "addy": "11 Quiver St",
-    "city": "Gotham",
-    "zip": "02366",
+    "city": "Metropolis",
+    "zip": "01024",
     "phone": "555-1991",
     "email":  "bullseye@dc.com"      
   },
   {
     "id": 7,
-    "image": "../images/joke.jpg",
+    "image": "https://cdn.pixabay.com/photo/2018/05/14/13/57/family-3400033__480.jpg",
     "name": "Joker",
     "spouse": "Harley Quinn",
     "child": "Eleanor, Franklin",
@@ -90,10 +92,10 @@
   },
   {
     "id": 8,
-    "image": "../images/super.jpg",
+    "image": "https://cdn.pixabay.com/photo/2014/11/08/03/45/family-521551__480.jpg",
     "name": "Lois Lane",
     "spouse": "Superman",
-    "child": "SuperBoy, Jimmy, Gwen",
+    "child": "Gwen Kent, SuperBoy Kent, Jimmy Kent",
     "classroom": "Teal, Brown, Pink",
     "addy": "650 Fifth Ave",
     "city": "Metropolis",
@@ -103,7 +105,7 @@
   },
   {
     "id": 9,
-    "image": "../images/raven.jpg",
+    "image": "https://cdn.pixabay.com/photo/2016/04/30/21/33/mom-1363914__480.jpg",
     "name": "Raven",
     "spouse": "n/a",
     "child": "Tony Stark",
@@ -116,7 +118,7 @@
   },
   {
     "id": 10,
-    "image": "../images/batwoman.jpg",
+    "image": "https://media.gettyimages.com/photos/same-sex-couple-holding-their-baby-picture-id1062317300?s=612x612",
     "name": "Renee Montoya",
     "spouse": "Batwoman",
     "child": "Eliza",
@@ -129,7 +131,7 @@
   },
   {
     "id": 11,
-    "image": "../images/starfire.jpg",
+    "image": "https://cdn.pixabay.com/photo/2015/10/31/21/47/family-1016311__480.jpg",
     "name": "Robin",
     "spouse": "Starfire",
     "child": "Beasty, Talia",
@@ -142,7 +144,7 @@
   },
   {
     "id": 12,
-    "image": "../images/starfire.jpg",
+    "image": "https://cdn.pixabay.com/photo/2015/10/31/21/47/family-1016311__480.jpg",
     "name": "Starfire",
     "spouse": "Robin",
     "child": "Beasty, Talia",
@@ -155,7 +157,7 @@
   },
   {
     "id": 13,
-    "image": "../images/wonder.jpg",
+    "image": "https://cdn.pixabay.com/photo/2017/11/21/02/28/family-2967259__480.jpg",
     "name": "Steve Trevor",
     "spouse": "Wonder Woman",
     "child": "Reve",
@@ -168,10 +170,10 @@
   },
     {
       "id": 14,
-      "image": "../images/super.jpg",
+      "image": "https://cdn.pixabay.com/photo/2014/11/08/03/45/family-521551__480.jpg",
       "name": "Superman",
       "spouse": "Lois Lane",
-      "child": "SuperBoy, Jimmy, Gwen",
+      "child": "Gwen Kent, SuperBoy Kent, Jimmy Kent",
       "classroom": "Teal, Brown, Pink",
       "addy": "650 Fifth Ave",
       "city": "Metropolis",
@@ -181,7 +183,7 @@
     },
       {
         "id": 15,
-        "image": "../images/wonder.jpg",
+        "image": "https://cdn.pixabay.com/photo/2017/11/21/02/28/family-2967259__480.jpg",
         "name": "Wonder Woman",
         "spouse": "Steve Trevor",
         "child": "Reve",

@@ -10,9 +10,9 @@ function ParentCard(props) {
                             <img  alt={props.name} src={props.image} />
                         </div>
                         <div className="text-area">
-                            <p>Partner: {props.spouse} </p>
                             <p>Child(ren): {props.child} </p>
                             <p>Classroom: {props.classroom} </p>
+                            <p>Partner: {props.spouse} </p>
                             <p>Address: {props.addy},  {props.city}  {props.zip} </p>
                             <p>Phone: {props.phone} </p>
                             <p>Email: {props.email} </p>
