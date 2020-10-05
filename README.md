@@ -22,16 +22,14 @@
 
  ## Installation
 
-This app is deployed to GitHub Pages:
+This app is deployed on Heroku at:
+https://super-dir.herokuapp.com/
 
 
  ## Usage
 
 The user scrolls through a list of parents.
 
-![Directory](/super-parents/readmeImgs/directory.png)
-![ChildFilter](/super-parents/readmeImgs/childFilter.png)
-![ClassFilter](/super-parents/readmeImgs/classFilter.png)
 
  ## License
  
